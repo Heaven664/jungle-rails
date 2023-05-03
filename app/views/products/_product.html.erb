@@ -3,6 +3,7 @@
     <%= image_tag product.image.thumb.url , alt: product.name %>
     <h1>
       <span><%= product.name %></span>
+      <%# Why is product.price an object?%>
       <span><%= humanized_money_with_symbol product.price %></span>
     </h1>
   <% end%>
