@@ -6,7 +6,7 @@ class User < ApplicationRecord
     email_address.downcase!
     email_address.strip!
     user = User.find_by_email(email_address)
-    if user.authenticate(password) 
+    if user && user.authenticate(password) 
       return user
     else
       return nil
