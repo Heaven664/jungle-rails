@@ -29,3 +29,13 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+- Turbolinks ^5.2.0
+- Webpack ^4.46.0
+- Webpack Client ^3.3.12
+
+## Dev Dependencies
+- Cypress ^9.7.0
+- Webpack Development Server ^3.11.2
+
+## Thank You
+Thank you for taking the time to look at one of my projects!
